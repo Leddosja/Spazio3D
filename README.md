@@ -1,6 +1,6 @@
 # Spazio3D - iOS App Development (Internship Project)
 
-Progetto iOS sviluppato durante lo stage PCTO presso **BrainSoftware S.r.l.** — Fonte (TV).
+Progetto iOS sviluppato durante lo stage PCTO presso [**BrainSoftware S.r.l.**](https://www.brainsoftware.it/) — Fonte (TV).
 
 ## 📖 Descrizione
 
@@ -28,10 +28,35 @@ L’app è progettata per interagire con sistemi CAD-CAM e processi produttivi, 
 - **Librerie:** Alamofire
 - **Target:** iOS
 
+## 📸 Screenshots
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="assets/app-ios-1.png">
+        <img src="assets/app-ios-1.png" width="400"/>
+      </a><br/>
+      <sub>Home</sub>
+    </td>
+    <td align="center">
+      <a href="assets/app-ios-2.png">
+        <img src="assets/app-ios-2.png" width="400"/>
+      </a><br/>
+      <sub>QR Scan</sub>
+    </td>
+    <td align="center">
+      <a href="assets/app-ios-3.png">
+        <img src="assets/app-ios-3.png" width="400"/>
+      </a><br/>
+      <sub>Settings</sub>
+    </td>
+  </tr>
+</table>
+
 ## 📌 Note
 
 Progetto realizzato a scopo formativo durante lo stage scolastico. Il codice potrebbe non riflettere best practice attuali.
 
 ---
 
-*Stage presso [BrainSoftware S.r.l.](https://www.brainsoftware.it/) — Fonte (TV)*
+*Stage presso BrainSoftware S.r.l.— Fonte (TV)*
