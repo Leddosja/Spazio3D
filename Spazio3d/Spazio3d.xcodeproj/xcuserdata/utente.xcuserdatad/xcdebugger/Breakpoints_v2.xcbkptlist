@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F33D1AFC-6252-45EA-94FC-27D4F34CDA07"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "873269A0-EC22-4A07-8FE2-2AAB1CA8A0A7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Spazio3d/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "873269A0-EC22-4A07-8FE2-2AAB1CA8A0A7 - 80cd3f9d6e60028b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in Spazio3d.ContentView.body.getter : some"
+                  moduleName = "Spazio3d"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/utente/Downloads/spazio3d_iot_4.0_ios/Spazio3d/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "873269A0-EC22-4A07-8FE2-2AAB1CA8A0A7 - ed9f742322cfeefd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in Spazio3d.ContentView.body.getter : some"
+                  moduleName = "Spazio3d"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/utente/Downloads/spazio3d_iot_4.0_ios/Spazio3d/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74CFC3B6-F925-41C5-B8A9-AEE981C22604"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Spazio3d/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "74CFC3B6-F925-41C5-B8A9-AEE981C22604 - ed9f742322cfeeda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in Spazio3d.ContentView.body.getter : some"
+                  moduleName = "Spazio3d"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/utente/Downloads/spazio3d_iot_4.0_ios/Spazio3d/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "74CFC3B6-F925-41C5-B8A9-AEE981C22604 - 35b079a55ac344dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in Spazio3d.ContentView.body.getter : some"
+                  moduleName = "Spazio3d"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/utente/Downloads/spazio3d_iot_4.0_ios/Spazio3d/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "74CFC3B6-F925-41C5-B8A9-AEE981C22604 - a26922460ecb8440"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in Spazio3d.ContentView.body.getter : some"
+                  moduleName = "Spazio3d"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/utente/Downloads/spazio3d_iot_4.0_ios/Spazio3d/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

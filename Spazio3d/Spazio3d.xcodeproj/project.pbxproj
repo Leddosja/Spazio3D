@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B033F6928C5EF2E00C4384E /* ProductionMonitorFrameworkiOS2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B033F6728C5EF2000C4384E /* ProductionMonitorFrameworkiOS2.framework */; };
+		8B033F6A28C5EF2E00C4384E /* ProductionMonitorFrameworkiOS2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B033F6728C5EF2000C4384E /* ProductionMonitorFrameworkiOS2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B033F6D28C5F51800C4384E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B033F6B28C5F50D00C4384E /* Alamofire.framework */; };
+		8B033F6E28C5F51800C4384E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B033F6B28C5F50D00C4384E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B3B63062858BA990057F648 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B63052858BA990057F648 /* Extensions.swift */; };
+		8B79044F2844A43700BF7439 /* Spazio3dApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B79044E2844A43700BF7439 /* Spazio3dApp.swift */; };
+		8B7904512844A43700BF7439 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7904502844A43700BF7439 /* ContentView.swift */; };
+		8B7904532844A43A00BF7439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7904522844A43A00BF7439 /* Assets.xcassets */; };
+		8B7904562844A43A00BF7439 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7904552844A43A00BF7439 /* Preview Assets.xcassets */; };
+		8B79045D2844B0BF00BF7439 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B79045C2844B0BF00BF7439 /* InfoView.swift */; };
+		8B79047B2844F35700BF7439 /* IniziaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B79047A2844F35700BF7439 /* IniziaView.swift */; };
+		8B86DAD0284F33520040FAF1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B86DACF284F33520040FAF1 /* CardView.swift */; };
+		8B86DAD4284F72900040FAF1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B86DAD3284F72900040FAF1 /* SettingsView.swift */; };
+		8BB27E43284785E200C9413E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB27E42284785E200C9413E /* ImagePicker.swift */; };
+		8BB27E45284787EF00C9413E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB27E44284787EF00C9413E /* AppDelegate.swift */; };
+		8BB27E472847880E00C9413E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB27E462847880E00C9413E /* SceneDelegate.swift */; };
+		8BDFC66A2850A10E00C27353 /* BarcodeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFC6692850A10E00C27353 /* BarcodeData.swift */; };
+		8BDFC66C2850A12E00C27353 /* BarcodeFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFC66B2850A12E00C27353 /* BarcodeFrame.swift */; };
+		8BDFC66E2850A15B00C27353 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFC66D2850A15B00C27353 /* CameraPreview.swift */; };
+		8BDFC6702850A18E00C27353 /* CBBarcodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFC66F2850A18E00C27353 /* CBBarcodeView.swift */; };
+		8BDFC6722850A1B400C27353 /* CBScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFC6712850A1B400C27353 /* CBScanner.swift */; };
+		8BDFC6742850A69000C27353 /* NewsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFC6732850A69000C27353 /* NewsRow.swift */; };
+		8BDFC6762850A71E00C27353 /* WebPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFC6752850A71E00C27353 /* WebPopup.swift */; };
+		8BDFC6782850A75900C27353 /* PopupEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFC6772850A75900C27353 /* PopupEdit.swift */; };
+		8BDFC67A2850A7CB00C27353 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFC6792850A7CB00C27353 /* GlobalVariables.swift */; };
+		8BDFC67C2850CD5B00C27353 /* ProductionOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFC67B2850CD5B00C27353 /* ProductionOrdersView.swift */; };
+		8BDFC67E2850CD8D00C27353 /* GlobalStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFC67D2850CD8D00C27353 /* GlobalStatisticsView.swift */; };
+		8BDFC6802850CDA400C27353 /* MachineStatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFC67F2850CDA400C27353 /* MachineStatesView.swift */; };
+		8BF1CD012853272F00D99BAA /* ListePezziRottiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1CD002853272F00D99BAA /* ListePezziRottiView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B033F6628C5E2E200C4384E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8B033F6A28C5EF2E00C4384E /* ProductionMonitorFrameworkiOS2.framework in Embed Frameworks */,
+				8B033F6E28C5F51800C4384E /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B033F6728C5EF2000C4384E /* ProductionMonitorFrameworkiOS2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProductionMonitorFrameworkiOS2.framework; path = ../ProductionMonitorFrameworkiOS2.framework; sourceTree = "<group>"; };
+		8B033F6B28C5F50D00C4384E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../Alamofire.framework; sourceTree = "<group>"; };
+		8B3B63052858BA990057F648 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8B79044B2844A43700BF7439 /* Spazio3d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spazio3d.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B79044E2844A43700BF7439 /* Spazio3dApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spazio3dApp.swift; sourceTree = "<group>"; };
+		8B7904502844A43700BF7439 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B7904522844A43A00BF7439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B7904552844A43A00BF7439 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B79045C2844B0BF00BF7439 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		8B79047A2844F35700BF7439 /* IniziaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniziaView.swift; sourceTree = "<group>"; };
+		8B86DACF284F33520040FAF1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8B86DAD3284F72900040FAF1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = ../SettingsView.swift; sourceTree = "<group>"; };
+		8BB27E42284785E200C9413E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		8BB27E44284787EF00C9413E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BB27E462847880E00C9413E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8BC05951284DD07200CE9F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8BDFC6692850A10E00C27353 /* BarcodeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeData.swift; sourceTree = "<group>"; };
+		8BDFC66B2850A12E00C27353 /* BarcodeFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeFrame.swift; sourceTree = "<group>"; };
+		8BDFC66D2850A15B00C27353 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		8BDFC66F2850A18E00C27353 /* CBBarcodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBBarcodeView.swift; sourceTree = "<group>"; };
+		8BDFC6712850A1B400C27353 /* CBScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBScanner.swift; sourceTree = "<group>"; };
+		8BDFC6732850A69000C27353 /* NewsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRow.swift; sourceTree = "<group>"; };
+		8BDFC6752850A71E00C27353 /* WebPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPopup.swift; sourceTree = "<group>"; };
+		8BDFC6772850A75900C27353 /* PopupEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupEdit.swift; sourceTree = "<group>"; };
+		8BDFC6792850A7CB00C27353 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		8BDFC67B2850CD5B00C27353 /* ProductionOrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionOrdersView.swift; sourceTree = "<group>"; };
+		8BDFC67D2850CD8D00C27353 /* GlobalStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalStatisticsView.swift; sourceTree = "<group>"; };
+		8BDFC67F2850CDA400C27353 /* MachineStatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineStatesView.swift; sourceTree = "<group>"; };
+		8BF1CD002853272F00D99BAA /* ListePezziRottiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListePezziRottiView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B7904482844A43700BF7439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B033F6928C5EF2E00C4384E /* ProductionMonitorFrameworkiOS2.framework in Frameworks */,
+				8B033F6D28C5F51800C4384E /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B033F5E28C5DCFF00C4384E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B3B63042858BA620057F648 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B63052858BA990057F648 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8B7904422844A43700BF7439 = {
+			isa = PBXGroup;
+			children = (
+				8B033F6B28C5F50D00C4384E /* Alamofire.framework */,
+				8B033F6728C5EF2000C4384E /* ProductionMonitorFrameworkiOS2.framework */,
+				8B79044D2844A43700BF7439 /* Spazio3d */,
+				8B79044C2844A43700BF7439 /* Products */,
+				8B033F5E28C5DCFF00C4384E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B79044C2844A43700BF7439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B79044B2844A43700BF7439 /* Spazio3d.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B79044D2844A43700BF7439 /* Spazio3d */ = {
+			isa = PBXGroup;
+			children = (
+				8BC05951284DD07200CE9F98 /* Info.plist */,
+				8B79044E2844A43700BF7439 /* Spazio3dApp.swift */,
+				8BB27E44284787EF00C9413E /* AppDelegate.swift */,
+				8BB27E462847880E00C9413E /* SceneDelegate.swift */,
+				8B7904502844A43700BF7439 /* ContentView.swift */,
+				8B79047A2844F35700BF7439 /* IniziaView.swift */,
+				8BF1CD002853272F00D99BAA /* ListePezziRottiView.swift */,
+				8B3B63042858BA620057F648 /* Helpers */,
+				8BDFC67B2850CD5B00C27353 /* ProductionOrdersView.swift */,
+				8BDFC67D2850CD8D00C27353 /* GlobalStatisticsView.swift */,
+				8BDFC67F2850CDA400C27353 /* MachineStatesView.swift */,
+				8B86DAD3284F72900040FAF1 /* SettingsView.swift */,
+				8BDFC6682850A0D600C27353 /* BarcodeScanner */,
+				8B79045C2844B0BF00BF7439 /* InfoView.swift */,
+				8BB27E42284785E200C9413E /* ImagePicker.swift */,
+				8B86DACF284F33520040FAF1 /* CardView.swift */,
+				8BDFC6732850A69000C27353 /* NewsRow.swift */,
+				8BDFC6752850A71E00C27353 /* WebPopup.swift */,
+				8BDFC6772850A75900C27353 /* PopupEdit.swift */,
+				8BDFC6792850A7CB00C27353 /* GlobalVariables.swift */,
+				8B7904522844A43A00BF7439 /* Assets.xcassets */,
+				8B7904542844A43A00BF7439 /* Preview Content */,
+			);
+			path = Spazio3d;
+			sourceTree = "<group>";
+		};
+		8B7904542844A43A00BF7439 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B7904552844A43A00BF7439 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BDFC6682850A0D600C27353 /* BarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				8BDFC6692850A10E00C27353 /* BarcodeData.swift */,
+				8BDFC66B2850A12E00C27353 /* BarcodeFrame.swift */,
+				8BDFC66D2850A15B00C27353 /* CameraPreview.swift */,
+				8BDFC66F2850A18E00C27353 /* CBBarcodeView.swift */,
+				8BDFC6712850A1B400C27353 /* CBScanner.swift */,
+			);
+			path = BarcodeScanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B79044A2844A43700BF7439 /* Spazio3d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7904592844A43A00BF7439 /* Build configuration list for PBXNativeTarget "Spazio3d" */;
+			buildPhases = (
+				8B7904472844A43700BF7439 /* Sources */,
+				8B7904482844A43700BF7439 /* Frameworks */,
+				8B7904492844A43700BF7439 /* Resources */,
+				8B033F6628C5E2E200C4384E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spazio3d;
+			productName = Spazio3d;
+			productReference = 8B79044B2844A43700BF7439 /* Spazio3d.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B7904432844A43700BF7439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					8B79044A2844A43700BF7439 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B7904462844A43700BF7439 /* Build configuration list for PBXProject "Spazio3d" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B7904422844A43700BF7439;
+			productRefGroup = 8B79044C2844A43700BF7439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B79044A2844A43700BF7439 /* Spazio3d */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B7904492844A43700BF7439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7904562844A43A00BF7439 /* Preview Assets.xcassets in Resources */,
+				8B7904532844A43A00BF7439 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B7904472844A43700BF7439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3B63062858BA990057F648 /* Extensions.swift in Sources */,
+				8BB27E45284787EF00C9413E /* AppDelegate.swift in Sources */,
+				8BB27E472847880E00C9413E /* SceneDelegate.swift in Sources */,
+				8BDFC66A2850A10E00C27353 /* BarcodeData.swift in Sources */,
+				8BDFC67C2850CD5B00C27353 /* ProductionOrdersView.swift in Sources */,
+				8BDFC67E2850CD8D00C27353 /* GlobalStatisticsView.swift in Sources */,
+				8BDFC6722850A1B400C27353 /* CBScanner.swift in Sources */,
+				8B7904512844A43700BF7439 /* ContentView.swift in Sources */,
+				8B86DAD4284F72900040FAF1 /* SettingsView.swift in Sources */,
+				8B79045D2844B0BF00BF7439 /* InfoView.swift in Sources */,
+				8BDFC66C2850A12E00C27353 /* BarcodeFrame.swift in Sources */,
+				8BDFC6702850A18E00C27353 /* CBBarcodeView.swift in Sources */,
+				8BB27E43284785E200C9413E /* ImagePicker.swift in Sources */,
+				8B79047B2844F35700BF7439 /* IniziaView.swift in Sources */,
+				8BDFC6762850A71E00C27353 /* WebPopup.swift in Sources */,
+				8BDFC67A2850A7CB00C27353 /* GlobalVariables.swift in Sources */,
+				8BDFC66E2850A15B00C27353 /* CameraPreview.swift in Sources */,
+				8BF1CD012853272F00D99BAA /* ListePezziRottiView.swift in Sources */,
+				8B86DAD0284F33520040FAF1 /* CardView.swift in Sources */,
+				8BDFC6742850A69000C27353 /* NewsRow.swift in Sources */,
+				8BDFC6802850CDA400C27353 /* MachineStatesView.swift in Sources */,
+				8B79044F2844A43700BF7439 /* Spazio3dApp.swift in Sources */,
+				8BDFC6782850A75900C27353 /* PopupEdit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B7904572844A43A00BF7439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B7904582844A43A00BF7439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B79045A2844A43A00BF7439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spazio3d/Preview Content\"";
+				DEVELOPMENT_TEAM = 9RFSCDNF8S;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(BUILD_PRODUCTS_DIR)/",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Spazio3d/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Spazio3D IoT 4.0";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to access the camera for taking photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				"LD_MAP_FILE_PATH[arch=*]" = "-rpath @executable_path/";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riccardo.Spazio3d;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B79045B2844A43A00BF7439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spazio3d/Preview Content\"";
+				DEVELOPMENT_TEAM = 9RFSCDNF8S;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(BUILD_PRODUCTS_DIR)/",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Spazio3d/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Spazio3D IoT 4.0";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to access the camera for taking photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riccardo.Spazio3d;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B7904462844A43700BF7439 /* Build configuration list for PBXProject "Spazio3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B7904572844A43A00BF7439 /* Debug */,
+				8B7904582844A43A00BF7439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B7904592844A43A00BF7439 /* Build configuration list for PBXNativeTarget "Spazio3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B79045A2844A43A00BF7439 /* Debug */,
+				8B79045B2844A43A00BF7439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B7904432844A43700BF7439 /* Project object */;
+}
